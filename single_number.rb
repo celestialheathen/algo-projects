@@ -18,6 +18,9 @@ def single_number(nums)
   nums.each do |num|
     number_hash[num] += 1
   end 
+  number_hash.each do |k, v|
+    return k if v == 1 
+  end 
 end
 
 p single_number([4,1,2,1,2])
