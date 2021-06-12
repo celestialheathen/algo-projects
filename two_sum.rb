@@ -20,8 +20,11 @@ def two_sum(nums, target)
     return [pointer1, pointer2]
 end
 
-nums = [2, 7, 11, 15]
-p two_sum(nums, 22)
+# nums = [2, 7, 11, 15]
+# p two_sum(nums, 22)
 
-num2 = [3, 2, 4]
-p two_sum(num2, 6)
+# num2 = [3, 2, 4]
+# p two_sum(num2, 6)
+
+num3 = [3, 3]
+p two_sum(num3, 6)
