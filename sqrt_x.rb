@@ -12,5 +12,11 @@
 # Explanation: The square root of 8 is 2.82842..., and since the decimal part is truncated, 2 is returned.
 
 def my_sqrt(x)
-    
+  num = 1.0 
+  until num * num >= x 
+    num += 1 
+  end 
+  num  
 end
+
+p my_sqrt(8)

@@ -11,5 +11,5 @@
 # Explanation: There is no common prefix among the input strings.
 
 def longest_common_prefix(strs)
-    
+    shortest_word = strs.
 end
